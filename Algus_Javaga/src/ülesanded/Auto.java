@@ -6,8 +6,6 @@ package ülesanded;
 /**
  * Ülesandeks on leida Smart auto, tavalise auto ja mahtuniversaali puhul
  * palju kaalub auto koos ja ilma rehvide ja velgedetta
- * NB! Vastused tuleb anda kilogrammides
- * <p>
  * Smart autol on kõige väiksemad võimalikud rehvid, mahtuniversaalil kõige suuremad
  * ja tavalisel autol on keskmised
  */
@@ -35,8 +33,6 @@ public class Auto {
         /**
          * Ülesandeks on leida Smart auto, tavalise auto ja mahtuniversaali puhul
          * palju kaalub auto koos ja ilma rehvide ja velgedetta
-         * NB! Vastused tuleb anda kilogrammides
-         *
          * Smart autol on kõige väiksemad võimalikud rehvid, mahtuniversaalil kõige suuremad
          * ja tavalisel autol on keskmised
          */
@@ -46,12 +42,15 @@ public class Auto {
         // Meil on vaja leida kolm erinevat rehv+velg kaalu: NB! Need on vaid ühe revi kaalud
 
 
+
         // Loome muutujad tavalise auto keskmiseks kaaluks ja mahtuniversaali keskmiseks kaaluks
         // Muutujateks paneme tavaKeskKaal ja mahtKeskKaal
 
 
+
         // Arvutame iga auto kohta keskmise kaalu
         // Muutujateks paneme smart, tavaline, mahtuniversaal
+
 
 
         //System.out.println("Smart auto: rehvide kaal " + väikeRatas + ", auto keskmine " + smartAutoKaal + ", auto kogukaal: " + smart);
@@ -59,5 +58,11 @@ public class Auto {
 
 
 
+        //System.out.println("Smart auto: rehvide ja velgede kaal: " + vaikeRatas + " kg, auto keskmine kaal ilma rehvide ja velgedeta: " + smartAutoKaal + " kg, auto kogukaal: " + smart + " kg");
+        //System.out.println("Tavaline auto: rehvide ja velgede kaal: " + keskRatas + " kg, auto keskmine kaal ilma rehvide ja velgedeta: " + tavaKeskKaal + " kg, auto kogukaal: " + tavaline + " kg");
+        //System.out.println("Mahtuniversaal: rehvide ja velgede kaal: " + suurRatas + " kg, auto keskmine kaal ilma rehvide ja velgedeta: " + mahtKeskKaal + " kg, auto kogukaal: " + mahtuniversaal + " kg");
+
     }
 }
+
+

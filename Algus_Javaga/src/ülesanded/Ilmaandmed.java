@@ -22,9 +22,9 @@ public class Ilmaandmed {
         Scanner scanner = new Scanner(System.in);
 
         // Loome listi temperatuurid, kuhu hakkame välistemperatuuri lisama, temperatuurid on täisarvud
+        List<Integer> temperatuurid = new ArrayList<>();
 
-
-        // Palume kasutajalt sisestada temperatuur
+        // Palume kasutajalt sisestada temperatuur ja salvestame kolm sisestust
 
 
         // Loome muutuja temp, mis tähistab meil temperatuuri
