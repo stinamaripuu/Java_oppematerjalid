@@ -13,7 +13,7 @@ package ülesanded;
 import java.util.Scanner;
 
 /********************************************************
- * Ülesandeks on seada õpilased pingeritta nende punktide alusel
+ * Ülesandeks on sisestada õpilaste hinded süsteemi
  * Tuleb luua kaks massiivi: üks õpilaste nimede ning teine nende punktide jaoks
  * Kasutaja sisestab punktid ja nimed
  * Lõpuks tagastatakse kõikide õpilaste keskmine punktisumma
